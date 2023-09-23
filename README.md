@@ -19,13 +19,13 @@ Aqui está uma lista dos projetos disponíveis neste repositório:
 
 ### Projeto 2: Exemplo de loop for
 
-- Descrição: .
-- Arquivo: ``
+- Descrição: Tabuada.
+- Arquivo: `Tabuada.py`
 
 ### Projeto 3: Exemplo de loop while
 
-- Descrição: 
-- Arquivo: ``
+- Descrição: Computador pensar  
+- Arquivo: `ComputadorPensar.py`
 
 ## Como Executar
 
