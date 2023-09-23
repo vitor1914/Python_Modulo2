@@ -8,6 +8,8 @@ print('Voce tem {} anos.'.format(alistamento))
 falta = (nascimento / nascimento) * 12
 meses = alistamento * 12
 
+temp = (ano - nascimento - 18) * 12
+
 print('Vai alistar no serviço militar:')
 alistar = int(input('(1 - SIM / 2 - NÃO): '))
 
@@ -20,6 +22,7 @@ else:
 
 if alistamento >= 18:
    print('Já esta na hora de se alistar!')
+   print('Passou {} meses de se alistar!'.format(temp))
 else:
    print('Ainda não esta na hora de se alistar, falta {} meses para seu alistamento!'.format(meses))
 

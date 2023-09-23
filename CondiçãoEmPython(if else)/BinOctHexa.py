@@ -19,11 +19,14 @@ base = str(input('Qual base de conversão? '))
 
 if base == '1':
     print(f'O número binário é: {binario}')
+    print('===========================')
 elif base == '2':
   print('Seu numero octal é {}'.format(numero_octal))
+  print('============================')
 
 elif base == '3':
     print('Seu numero hexadecimal é {}'.format(hexadecimal_string))
+    print('=========================')
 
 else:
   print('Comando invalido')
